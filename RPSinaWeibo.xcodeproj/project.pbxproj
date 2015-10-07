@@ -73,8 +73,8 @@
 			children = (
 				3800B20B1BB0288B00A56E88 /* Tools */,
 				3800B20A1BB0288B00A56E88 /* Model */,
-				3800B20C1BB0288B00A56E88 /* View(包括View和Controller) */,
 				3800B2121BB0288B00A56E88 /* ViewModel */,
+				3800B20C1BB0288B00A56E88 /* View(包括View和Controller) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

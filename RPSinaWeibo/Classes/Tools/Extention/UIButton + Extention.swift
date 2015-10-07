@@ -20,5 +20,8 @@ extension UIButton {
         setImage(UIImage(named: imageName + "_highlighted"), forState: UIControlState.Highlighted)
         setBackgroundImage(UIImage(named: bgImageName), forState: UIControlState.Normal)
         setBackgroundImage(UIImage(named: bgImageName + "_highlighted"), forState: UIControlState.Highlighted)
+        
+        // 自动调整大小
+        sizeToFit()
     }
 }

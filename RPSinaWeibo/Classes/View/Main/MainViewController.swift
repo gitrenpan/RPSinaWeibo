@@ -16,7 +16,6 @@ class MainViewController: UITabBarController {
         addChildViewControllers()
     }
     
-    
     /// 添加所有的控制器
     private func addChildViewControllers() {
     
@@ -30,21 +29,16 @@ class MainViewController: UITabBarController {
     
     /// 添加子控制器
     private func addChildViewController(vc:UIViewController, title: String, imageName: String){
-    
-    tabBar.tintColor = UIColor.orangeColor()
-    
-    vc.title = title;
-    vc.tabBarItem.image = UIImage(named: imageName)
-    let naviVc = UINavigationController(rootViewController: vc)
-    
-    addChildViewController(naviVc)
+        
+        tabBar.tintColor = UIColor.orangeColor()
+        
+        vc.title = title;
+        vc.tabBarItem.image = UIImage(named: imageName)
+        let naviVc = UINavigationController(rootViewController: vc)
+        
+        addChildViewController(naviVc)
         
     }
-    
-    
-    
-    
-    
     
 }
 
