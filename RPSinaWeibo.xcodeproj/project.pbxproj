@@ -97,9 +97,9 @@
 		3800B20C1BB0288B00A56E88 /* View(包括View和Controller) */ = {
 			isa = PBXGroup;
 			children = (
+				3800B20F1BB0288B00A56E88 /* Main */,
 				3800B20D1BB0288B00A56E88 /* Discover */,
 				3800B20E1BB0288B00A56E88 /* Home */,
-				3800B20F1BB0288B00A56E88 /* Main */,
 				3800B2101BB0288B00A56E88 /* Message */,
 				3800B2111BB0288B00A56E88 /* Profile */,
 			);
